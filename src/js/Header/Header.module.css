@@ -1,0 +1,13 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-content: center
+}
+
+.Title {
+    color: #ffffff;
+}
+
+.Yellow {
+    color: yellow;
+}
