@@ -11,10 +11,12 @@ import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import Header from "../Header";
 
 const useStyles = makeStyles((theme) => ({
     grow: {
         flexGrow: 1,
+        height: '10vh'
     },
     menuButton: {
         marginRight: theme.spacing(2),
@@ -124,6 +126,7 @@ const MenuBar = () => {
         <div className={classes.grow}>
             <AppBar position="static">
                 <Toolbar>
+
                     <IconButton
                         edge="start"
                         className={classes.menuButton}
@@ -133,7 +136,7 @@ const MenuBar = () => {
                         <MenuIcon/>
                     </IconButton>
                     <Typography className={classes.title} variant="h6" noWrap>
-                        Keren Or
+                      KoUpdeter +
                     </Typography>
                     <div className={classes.grow}/>
                     <div className={classes.sectionDesktop}>
@@ -153,6 +156,7 @@ const MenuBar = () => {
                             <AccountCircle/>
                         </IconButton>
                     </div>
+
                     <div className={classes.sectionMobile}>
                         <IconButton
                             aria-label="show more"

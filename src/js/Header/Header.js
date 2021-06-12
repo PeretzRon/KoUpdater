@@ -5,9 +5,8 @@ import MenuBar from "./MenuBar/MenuBar";
 const Header = () => {
     return (
         <React.Fragment>
-            <MenuBar/>
             <div className={classes.Header}>
-                <h1 className={classes.Title}>KoUpdater Plus</h1>
+                <h1 className={classes.Title}>KoUpdater Plus +</h1>
             </div>
         </React.Fragment>
     );

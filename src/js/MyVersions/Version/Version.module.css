@@ -1,0 +1,16 @@
+.Version {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 90);
+    padding: 10px;
+    margin: 1px 0;
+}
+
+.Version:hover {
+    background-color: aqua;
+}
+
+.VersionNumber {
+    text-align: center;
+    padding: 10px;
+}
